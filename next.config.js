@@ -5,6 +5,16 @@
 await import("./src/env.js");
 
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "www.thecocktaildb.com",
+      },
+    ],
+    minimumCacheTTL: 120,
+  },
+};
 
 export default config;
