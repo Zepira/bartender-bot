@@ -57,7 +57,7 @@ export default async function BottomNavBar() {
           }}
         >
           <img src={mixingIcon.src} style={{ height: 50, width: 50 }} />
-          <span>Ingredients</span>
+          <span>Ingredientss</span>
         </Link>
         <Link
           href="/cocktails"
