@@ -15,6 +15,9 @@ const config = {
     ],
     minimumCacheTTL: 120,
   },
+  output: "export", // <=== enables static exports
+  reactStrictMode: true,
+  basePath: "/bartender-bot",
 };
 
 export default config;
